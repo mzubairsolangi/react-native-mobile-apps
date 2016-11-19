@@ -14,4 +14,4 @@ cd AwesomeProject
 react-native run-android
 ```
 
-><img src="hello-world.jpg" width="320" height="320">
+><img src="hello-world.jpg" width="320">
