@@ -15,4 +15,9 @@ cd app-name
 react-native run-android
 ```
 
+# Clone app :
+```
+run npm install
+```
+
 ><img src="image-list.jpg" width="320">
