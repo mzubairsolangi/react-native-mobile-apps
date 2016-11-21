@@ -20,6 +20,7 @@ export default class layoutHightWidth extends Component {
           <View style={styles.titleContainer}>
             <View style={styles.titleFlex}>
                 <Text style={styles.title}>Layout Height Width </Text>
+                <Text style={styles.title}>Layout with Fixed Dimensions  </Text>
             </View>
           </View>
           <View>
@@ -32,7 +33,7 @@ export default class layoutHightWidth extends Component {
              <View style={styles.boxThree} > 
                 <Text>Layout 3 WH:300 </Text>
             </View>
-             <View style={styles.boxFour} > 
+             <View style={styles.boxFour}> 
                 <Text>Layout 3  WH:350  </Text>
             </View>
           </View>

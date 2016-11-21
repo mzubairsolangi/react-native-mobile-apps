@@ -1,0 +1,3 @@
+rootProject.name = 'LayoutFLex'
+
+include ':app'
