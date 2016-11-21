@@ -18,4 +18,7 @@ react-native run-android
 run npm install
 ```
 
-><img src="flex-1.jpg" width="320"><img src="flex-2.jpg" width="320"><img src="flex-3.jpg" width="320"><img src="flex-4.jpg" width="320">
+><img src="flex-1.jpg" width="320">
+><img src="flex-2.jpg" width="320">
+><img src="flex-3.jpg" width="320">
+><img src="flex-4.jpg" width="320">
