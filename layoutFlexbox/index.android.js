@@ -17,80 +17,110 @@ export default class layoutFlexbox extends Component {
   render() {
     return (
    <ScrollView>
+
       <View style={{flex: 1, flexDirection: 'row'}}>
-       <View style={{width: 300, height: 50, backgroundColor: '#ffff66'}}>
-          <Text style={{ftextAlign:'center', padding:10}}>Flex Direction </Text>
+       <View style={{flex: 1, backgroundColor: '#9ACD32'}}>
+          <Text style={{textAlign:'center', padding:10}}>Flex Direction - Row</Text>
        </View>
+      </View>
+
+      <View style={{flex: 1, flexDirection: 'row', backgroundColor:'#E6E6FA', height:300}}>
+          <View style={{flex: 1, flexDirection: 'row'}}>
+            <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Row 1</Text></View>
+            <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Row 2</Text></View>
+            <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Row 3</Text></View>
+          </View>
+      </View>
+
+      <View style={{flex: 1, flexDirection: 'row'}}>
+       <View style={{flex: 1, backgroundColor: '#9ACD32'}}>
+              <Text style={{textAlign:'center', padding:10}}> Flex Direction - Column</Text>
+       </View>
+      </View>
+
+      <View style={{flex: 1, flexDirection: 'row', backgroundColor:'#E6E6FA', height:270}}>
+        <View style={{flex: 1, flexDirection: 'Column'}}>
+          <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Column 1</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Column2</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Column 3</Text></View>
+        </View>
       </View>
 
        <View style={{flex: 1, flexDirection: 'row'}}>
-        <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Flex row 1</Text></View>
-        <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Flex row 2</Text></View>
-        <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Flex row 3</Text></View>
+        <View style={{flex: 1, backgroundColor: '#9ACD32'}}>
+                <Text style={{textAlign:'center', padding:10}}> Justify - space-between </Text>
+        </View>
       </View>
 
-      <View style={{flex: 1, flexDirection: 'column'}}>
-        <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Flex column 1</Text></View>
-        <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Flex column 2</Text></View>
-        <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Flex column 3</Text></View>
+      <View style={{flex: 1, flexDirection: 'row', backgroundColor:'Gray ', height:270}}>
+        <View style={{flex: 1, flexDirection: 'Column', justifyContent: 'space-between'}}>
+          <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Column 1</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Column2</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Column 3</Text></View>
+        </View>
       </View>
 
       <View style={{flex: 1, flexDirection: 'row'}}>
-       <View style={{width: 300, height: 50, backgroundColor: '#ffff66'}}>
-          <Text style={{ftextAlign:'center', padding:10}}>Justify Content </Text>
-       </View>
+        <View style={{flex: 1, backgroundColor: '#9ACD32'}}>
+                <Text style={{textAlign:'center', padding:10}}> Justify - flex-start</Text>
+        </View>
+      </View>
+       <View style={{flex: 1, flexDirection: 'row', backgroundColor:'#E6E6FA', height:270}}>
+        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'flex-start'}}>
+          <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Column 1</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Column2</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Column 3</Text></View>
+        </View>
       </View>
 
        <View style={{flex: 1, flexDirection: 'row'}}>
-        <View style={{
-        flex: 1,
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-      }}>
-       <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Flex 1</Text></View>
-        <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Flex 2</Text></View>
-        <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Flex 3</Text></View>
-      </View>
+        <View style={{flex: 1, backgroundColor: '#9ACD32'}}>
+                <Text style={{textAlign:'center', padding:10}}> Justify - center, </Text>
+        </View>
       </View>
 
+       <View style={{flex: 1, flexDirection: 'row', backgroundColor:'	#E6E6FA', height:270}}>
+        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center'}}>
+          <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Column 1</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Column2</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Column 3</Text></View>
+        </View>
+      </View>
 
       <View style={{flex: 1, flexDirection: 'row'}}>
-       <View style={{width: 300, height: 50, backgroundColor: '#ffff66'}}>
-          <Text style={{ftextAlign:'center', padding:10}}>Align Items  </Text>
-       </View>
+        <View style={{flex: 1, backgroundColor: '#9ACD32'}}>
+                <Text style={{textAlign:'center', padding:10}}> Justify - flex-end</Text>
+        </View>
       </View>
-       <View style={{
-        flex: 1,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-        <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Flex 1</Text></View>
-        <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Flex 2</Text></View>
-        <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Flex 3</Text></View>
+
+       <View style={{flex: 1, flexDirection: 'row', backgroundColor:'E6E6FA ', height:270}}>
+        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'flex-end'}}>
+          <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}}><Text>Column 1</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} ><Text>Column2</Text></View>
+          <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}}><Text>Column 3</Text></View>
+        </View>
+      </View>
+      <View style={{flex: 1, flexDirection: 'row'}}>
+        <View style={{flex: 1, backgroundColor: '#9ACD32'}}>
+                <Text style={{textAlign:'center', padding:10}}> Align Items  - alignItems:center</Text>
+        </View>
+      </View>
+
+       <View style={{flex: 1, flexDirection: 'row', backgroundColor:'E6E6FA ', height:270}}>
+         <View style={{
+            flex: 1,
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}>
+        <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
+        <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} />
+        <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}} />
+      </View>
       </View>
     </ScrollView>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
 
 AppRegistry.registerComponent('layoutFlexbox', () => layoutFlexbox);

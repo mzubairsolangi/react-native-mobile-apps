@@ -80,3 +80,5 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('layoutHightWidth', () => layoutHightWidth);
+
+// A component's height and width determine its size on the screen.
