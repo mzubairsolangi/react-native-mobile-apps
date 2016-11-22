@@ -1,6 +1,6 @@
 # Ract Native Mobile Apps:
 
-This demo is based on input handling. When user type any word and put space the pizza image will be display against every space.
+This demo is based on input handling. When user type any word the pizza image will be display against every word.
 
 
 #Getting Started :
