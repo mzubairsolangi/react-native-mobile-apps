@@ -18,4 +18,4 @@ react-native run-android
 run npm install
 ```
 
-><img src="books.jpg" width="320">
+><img src="booksList.jpg" width="320">

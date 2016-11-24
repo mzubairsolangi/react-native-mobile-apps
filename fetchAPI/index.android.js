@@ -62,7 +62,7 @@ export default class fetchAPI extends Component {
   render() {
     return (
       <List containerStyle={{marginTop: 0}}>
-      <Text style={styles.title}>Books and author's</Text>
+      <Text style={styles.title}>Books and Author's</Text>
         <ListView
           renderRow={this.renderRow}
           dataSource={this.state.Books}
